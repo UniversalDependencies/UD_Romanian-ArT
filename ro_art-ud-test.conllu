@@ -392,7 +392,7 @@
 11	calea	cale	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	12	nsubj	_	_
 12	câmplu	câmpu	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	1	conj	_	_
 13	uscat	uscat	ADJ	Afpmsrn	Case=Acc,Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
-14	,	,	PUNCT	COMMA	_	21	punct	_	_
+14	,	,	PUNCT	COMMA	_	15	punct	_	_
 15	arsi	ardu	VERB	Vmis3s	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	_
 16	di	di	ADP	Spsa	AdpType=Prep|Case=Acc	17	case	_	_
 17	seati	seate	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	15	obl	_	_
