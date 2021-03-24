@@ -90,7 +90,7 @@
 
 # sent_id = test-8
 # text = Şi s-nu pistipsiri, misură tine diznou!
-1	Şi	și	CCONJ	Ccssp	Polarity=Pos	6	cc	_	_
+1	Şi	şi	CCONJ	Ccssp	Polarity=Pos	6	cc	_	_
 2	s-	sâ	PART	Qc	Mood=Cnd	4	mark	_	SpaceAfter=No
 3	nu	nu	PART	Qz	Polarity=Neg	4	advmod	_	_
 4	pistipsiri	pistipsescu	VERB	Vmcp3	Mood=Cnd|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	SpaceAfter=No
@@ -265,7 +265,7 @@
 
 # sent_id = test-21
 # text = Şi feata ună câte ună ĺ-aspuse anarga ş-muşat cum yine un ĝone-aleptu.
-1	Şi	și	CCONJ	Ccssp	Polarity=Pos	7	cc	_	_
+1	Şi	şi	CCONJ	Ccssp	Polarity=Pos	7	cc	_	_
 2	feata	feată	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	_
 3	ună	un	NUM	Mcfsrly	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing|NumForm=Word|NumType=Card	7	nummod	_	_
 4	câte	câte	ADV	Rgp	Degree=Pos	5	advmod	_	_
@@ -273,7 +273,7 @@
 6	ĺ-	el	PRON	Pp3msd--y-----w	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Strength=Weak|Variant=Short	7	iobj	_	SpaceAfter=No
 7	aspuse	aspun	VERB	Vmis3s	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 8	anarga	anarga	ADV	Rgp	Degree=Pos	7	advmod	_	_
-9	ș-	și	CCONJ	Crssp	Polarity=Pos	10	cc	_	SpaceAfter=No
+9	ş-	şi	CCONJ	Crssp	Polarity=Pos	10	cc	_	SpaceAfter=No
 10	mușat	mușat	ADV	Rgp	Degree=Pos	8	conj	_	_
 11	cum	cum	SCONJ	Csssp	Polarity=Pos	12	mark	_	_
 12	yine	yin	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
