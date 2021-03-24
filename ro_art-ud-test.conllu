@@ -1,6 +1,6 @@
 # sent_id = test-1
 # text = Ĺepurle ansare d-iu nu te-aştepţ.
-1	Lepurle	lepure	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	_
+1	Ĺepurle	lepure	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	ansare	ansar	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	d-	di	ADP	Spsa	AdpType=Prep|Case=Acc	4	case	_	SpaceAfter=No
 4	iu	iu	ADV	Rw	PronType=Int,Rel	7	advmod	_	_
@@ -14,9 +14,9 @@
 1	țe	ţe	PRON	Pw3--r	Case=Acc,Nom|Person=3|PronType=Int,Rel	2	obj	_	_
 2	vrei	voi	VERB	Vmip2s	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	COMMA	_	7	punct	_	_
-4	di	di	CONJ	Csssp	Polarity=Pos	7	mark	_	_
-5	ma	mini PRON	Pp1-sa--------w	Case=Acc|Number=Sing|Person=1|PronType=Prs|Strength=Weak	7	obj	_	_
-6	tut tut ADV	Rp	_	7	advmod	_	_
+4	di	di	SCONJ	Csssp	Polarity=Pos	7	mark	_	_
+5	ma	mini	PRON	Pp1-sa--------w	Case=Acc|Number=Sing|Person=1|PronType=Prs|Strength=Weak	7	obj	_	_
+6	tut	tut ADV	Rp	_	7	advmod	_	_
 7	asuń	asuń	VERB	Vmip2s	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No
 8	?	?	PUNCT	QUEST	_	2	punct	_	_
 
@@ -24,7 +24,7 @@
 # text = Aestu lucru nu s-fațe putes.
 1	Aestu	aestu	DET	Dd3msr---e	Case=Acc,Nom|Gender=Masc|Number=Sing|Person=3|Position=Prenom|PronType=Dem	2	det	_	_
 2	lucru	lucru	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	_
-3	nu	nu	nu	PART	Qz	Polarity=Neg	5	advmod	_	_
+3	nu	nu	PART	Qz	Polarity=Neg	5	advmod	_	_
 4	s-	si	PRON	Px3--a--y-----w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak|Variant=Short	5	expl:pv	_	SpaceAfter=No
 5	fațe	fac	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	putes	putes	ADV	Rz	PronType=Neg	5	advmod	_	SpaceAfter=No
@@ -41,10 +41,10 @@
 7	va	voi	AUX	Va--3p	Number=Plur|Person=3	10	aux	_	_
 8	lă	el'	PRON	Pp3-pd--------w	Case=Dat|Number=Plur|Person=3|PronType=Prs|Strength=Weak	10	iobj	_	_
 9	si	si	PRON	Px3--a--y-----w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak|Variant=Short	10	expl:impers	_	_
-10	pară	par	VERB	Vmip3	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_
+10	pară	par	VERB	Vmip3	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
 11	că	că	SCONJ	Csssp	Polarity=Pos	12	mark	_	_
 12	escu	hiu	VERB	Vmip1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	csubj	_	_
-13	mine	mini	RRON	Pp1-sn--------s	Case=Nom|Number=Sing|Person=1|PronType=Prs|Strength=Strong	12	nsubj	_	SpaceAfter=No
+13	mine	mini	PRON	Pp1-sn--------s	Case=Nom|Number=Sing|Person=1|PronType=Prs|Strength=Strong	12	nsubj	_	SpaceAfter=No
 14	.	.	PUNCT	PERIOD	_	3	punct	_	_
 
 # sent_id = test-5
@@ -59,18 +59,18 @@
 8	ș-	și	ADV	Cr	_	9	advmod	_	SpaceAfter=No
 9	alti	alt	DET	Di3fpr---e	Case=Acc,Nom|Gender=Fem|Number=Plur|Person=3|Position=Prenom|PronType=Ind	10	det	_	_
 10	petali	petală	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	7	obj	_	_
-11	io	mini	RRON	Pp1-sn--------s	Case=Nom|Number=Sing|Person=1|PronType=Prs|Strength=Strong	7	nsubj	_	SpaceAfter=No
+11	io	mini	PRON	Pp1-sn--------s	Case=Nom|Number=Sing|Person=1|PronType=Prs|Strength=Strong	7	nsubj	_	SpaceAfter=No
 12	!	!	PUNCT	EXCL	_	3	punct	_	_
 
 # sent_id = test-6
 # text = Ahtare işită nu-avea faptă vărnoară.
 1	Ahtare	ahtare	ADJ	Afp	Degree=Pos	2	amod	_	_
-2	ișită	ișită	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	işită	işită	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	5	nsubj	_	_
 3	nu-	nu	PART	Qz	Polarity=Neg	5	advmod	_	SpaceAfter=No
 4	avea	am	AUX	Vaii3s	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
 5	faptă	fac	VERB	Vmp--sm	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
 6	vărnoară	vărnoară	ADV	Rz	PronType=Neg	5	advmod	_	SpaceAfter=No
-.	.	PUNCT	PERIOD	_	5	punct	_	_
+7	.	.	PUNCT	PERIOD	_	5	punct	_	_
 
 # sent_id = test-7
 # text = Să se-alină analtu-n casă, i s-nu intră dip?
@@ -93,7 +93,7 @@
 1	Și	și	CCONJ	Ccssp	Polarity=Pos	6	cc	_	_
 2	s-	sâ	PART	Qc	Mood=Cnd	4	mark	_	SpaceAfter=No
 3	nu	nu	PART	Qz	Polarity=Neg	4	advmod	_	_
-4	pistipsiri	pistipsescu	VERB	Vmcp3	Mood=Cnd|Person=3|Tense=Pres|VerbForm=Fin	7	6	advcl	_	SpaceAfter=No
+4	pistipsiri	pistipsescu	VERB	Vmcp3	Mood=Cnd|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	SpaceAfter=No
 5	,	,	PUNCT	COMMA	_	6	punct	_	_
 6	misură	misur	VERB	Vmm-2s	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
 7	tine	tine	PRON	Pp2-sn--------s	Case=Nom|Number=Sing|Person=2|PronType=Prs|Strength=Strong	6	nsubj	_	_
@@ -139,7 +139,7 @@
 # text = Cum imna minduit, veade un auş cu barba albă.
 1	Cum	cum	ADV	Rw	PronType=Int,Rel	2	advmod	_	_
 2	imna	imnu	VERB	Vmii3s	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	_	_
-3	minduit	minduescu	VERB	Vmp--sm	Gender=Masc|Number=Sing|VerbForm=Part	3	xcomp	_	SpaceAfter=No
+3	minduit	minduescu	VERB	Vmp--sm	Gender=Masc|Number=Sing|VerbForm=Part	2	xcomp	_	SpaceAfter=No
 4	,	,	PUNCT	COMMA	_	2	punct	_	_
 5	veade	ved	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	un	un	DET	Timsr	Case=Acc,Nom|Gender=Masc|Number=Sing|PronType=Ind	7	det	_	_
@@ -173,7 +173,7 @@
 8	s-	să	PART	Qs	Mood=Sub	10	mark	_	SpaceAfter=No
 9	ti	tini	PRON	Pp2-sa--------w	Case=Acc|Number=Sing|Person=2|PronType=Prs|Strength=Weak	10	expl:pv	_	_
 10	afli	aflu	VERB	Vmsp2s	Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-11	aoa	aoa	ADV	ADV	Rgp	Degree=Pos	10	advmod	_	SpaceAfter=No
+11	aoa	aoa	ADV	Rgp	Degree=Pos	10	advmod	_	SpaceAfter=No
 12	.	.	PUNCT	PERIOD	_	10	punct	_	_
 
 # sent_id = test-15
@@ -186,7 +186,7 @@
 6	nu	nu	PART	Qz	Polarity=Neg	8	advmod	_	_
 7	ti	tini	PRON	Pp2-sa--------w	Case=Acc|Number=Sing|Person=2|PronType=Prs|Strength=Weak	8	expl:pv	_	_
 8	dipuńi	dipun	VERB	Vmip2s	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	conj	_	_
-9	ș-	și	ADV	Rc	_	10	advmod	_	SpaceAfter=No
+9	ş-	şi	ADV	Rc	_	10	advmod	_	SpaceAfter=No
 10	tine	tine	PRON	Pp2-sn--------s	Case=Nom|Number=Sing|Person=2|PronType=Prs|Strength=Strong	8	nsubj	_	_
 11	nă	un	NUM	Mcfsrl	Case=Acc,Nom|Gender=Fem|Number=Sing|NumForm=Word|NumType=Card	12	nummod	_	_
 12	oară	oară	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
@@ -198,7 +198,7 @@
 2	casă	casă	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	4	obl	_	_
 3	n-	nu	PART	Qz-y	Polarity=Neg|Variant=Short	4	advmod	_	SpaceAfter=No
 4	avea	am	VERB	Vmii3s	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-5	niți	niți	ADV	Rz	PronType=Neg	7	advmod	_	_
+5	niţi	niţi	ADV	Rz	PronType=Neg	7	advmod	_	_
 6	un	un	DET	Timsr	Case=Acc,Nom|Gender=Masc|Number=Sing|PronType=Ind	7	det	_	_
 7	lemnu	lemnu	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	4	obj	_	_
 8	ti	ti	ADP	Spsa	AdpType=Prep|Case=Acc	9	case	_	_
@@ -213,7 +213,7 @@
 3	feată	feată	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	2	xcomp	_	_
 4	s-	să	PART	Qs	Mood=Sub	7	mark	_	SpaceAfter=No
 5	nu	nu	PART	Qz	Polarity=Neg	7	advmod	_	SpaceAfter=No
-6	-o	el	PRON	PRON	Pp3fsa--y-----w	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Strength=Weak|Variant=Short	7	expl	_	_
+6	-o	el	PRON	Pp3fsa--y-----w	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Strength=Weak|Variant=Short	7	expl	_	_
 7	pitriţeţi	pitrec	VERB	Vmsp2s	Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	cartea	carte	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	7	obj	_	_
 9	dip	dip	ADV	Rgp	Degree=Pos	7	advmod	_	SpaceAfter=No
@@ -245,7 +245,7 @@
 4	sĉia	știŭ	VERB	Vmii3s	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	ți	ți	PRON	Pw3--r	Case=Acc,Nom|Person=3|PronType=Int,Rel	8	obj	_	_
 6	s-	să	PART	Qs	Mood=Sub	8	mark	_	SpaceAfter=No
-7	cama	cama	ADV	ADV	Rp	_	8	advmod	_	_
+7	cama	cama	ADV	Rp	_	8	advmod	_	_
 8	facă	fac	VERB	Vmsp3s	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
 9	di	di	ADP	Spsa	AdpType=Prep|Case=Acc	10	case	_	_
 10	harao	harao	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
@@ -253,14 +253,14 @@
 
 # sent_id = test-20
 # text = Cara să-s turna acasă u pâţa fiĉorlu.
-1	Cara	SCONJ	Csssp	Polarity=Pos	4	mark	_	_
+1	Cara	cara	SCONJ	Csssp	Polarity=Pos	4	mark	_	_
 2	să	să	PART	Qs	Mood=Sub	4	mark	_	SpaceAfter=No
 3	-s	si	PRON	Px3--a--y-----w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak|Variant=Short	4	expl:pv	_	_
 4	turna	tornu	VERB	Vmsi3s	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	advcl	_	_
 5	acasă	acasă	ADV	Rgp	Degree=Pos	4	advmod	_	_
 6	u	el	PRON	Pp3fsa--------w	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Strength=Weak	7	expl	_	_
 7	pâța	pat	VERB	Vmii3s	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-8	fiĉorlu	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+8	fiĉorlu	fiĉor	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
 9	.	.	PUNCT	PERIOD	_	7	punct	_	_
 
 # sent_id = test-21
@@ -276,7 +276,7 @@
 9	ș-	și	CCONJ	Crssp	Polarity=Pos	10	cc	_	SpaceAfter=No
 10	mușat	mușat	ADV	Rgp	Degree=Pos	8	conj	_	_
 11	cum	cum	SCONJ	Csssp	Polarity=Pos	12	mark	_	_
-12	yine	yin	Vmip3s	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+12	yine	yin	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
 13	un	un	DET	Timsr	Case=Acc,Nom|Gender=Masc|Number=Sing|PronType=Ind	14	det	_	_
 14	ĝone	ĝone	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
 15	aleptu	aleptu	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
@@ -285,7 +285,7 @@
 # sent_id = test-22
 # text = Am, adu-l cara poţ.
 1	Am	am	INTJ	I	_	3	parataxis	_	SpaceAfter=No
-2	,	,	PUNCT	COMMA	_	6	punct	_	_
+2	,	,	PUNCT	COMMA	_	1	punct	_	_
 3	adu	aduc	VERB	Vmm-2s	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	-l	el	PRON	Pp3msa--y-----w	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Strength=Weak|Variant=Short	3	obj	_	_
 5	cara	cara	SCONJ	Csssp	Polarity=Pos	6	mark	_	_
@@ -297,7 +297,7 @@
 1	Tora	tora	ADV	Rgp	Degree=Pos	2	advmod	_	_
 2	vineam	yin	VERB	Vmii1s	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	s-	să	PART	Qs	Mood=Sub	5	mark	_	SpaceAfter=No
-4	ț	tini	PRON	PRON	Pp2-sd--------w	Case=Dat|Number=Sing|Person=2|PronType=Prs|Strength=Weak	5	iobj	_	_
+4	ț	tini	PRON	Pp2-sd--------w	Case=Dat|Number=Sing|Person=2|PronType=Prs|Strength=Weak	5	iobj	_	_
 5	aĝut	aĝut	VERB	Vmsp1s	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No
 6	.	.	PUNCT	PERIOD	_	2	punct	_	_
 
@@ -305,7 +305,7 @@
 # text = Ună oară ţi intrai la tine, ýin.
 1	Ună	un	DET	Tifsr	Case=Acc,Nom|Gender=Fem|Number=Sing|PronType=Ind	4	advmod	_	_
 2	oară	oară	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	1	fixed	_	_
-3	ți	țe	PRON	Pw3--r	Case=Acc,Nom|Person=3|PronType=Int,Rel	1	fixed	_	_
+3	ţi	ţe	PRON	Pw3--r	Case=Acc,Nom|Person=3|PronType=Int,Rel	1	fixed	_	_
 4	intrai	intru	VERB	Vmii2s	Mood=Ind|Number=Sing|Person=2|Tense=Imp|VerbForm=Fin	8	advcl	_	_
 5	la	la	ADP	Spsa	AdpType=Prep|Case=Acc	6	case	_	_
 6	tine	tini	PRON	Pp2-sa--------s	Case=Acc|Number=Sing|Person=2|PronType=Prs|Strength=Strong	4	obl	_	SpaceAfter=No
@@ -316,10 +316,10 @@
 # sent_id = test-25
 # text = Merlu se-arcai, nu cădea mpade.
 1	Merlu	mer	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	3	obj	_	_
-2	se-	si	CONJ	Csssp	Polarity=Pos	3	mark	_	_		SpaceAfter=No
-3	arcai	aruc	Vmii3s	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	advcl	_	SpaceAfter=No
+2	se-	si	CONJ	Csssp	Polarity=Pos	3	mark	_	SpaceAfter=No
+3	arcai	aruc	VERB	Vmii3s	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	advcl	_	SpaceAfter=No
 4	,	,	PUNCT	COMMA	_	6	punct	_	_
-5	nu	PART	Qz	Polarity=Neg	6	advmod	_	_
+5	nu	nu	PART	Qz	Polarity=Neg	6	advmod	_	_
 6	cădea	cad	VERB	Vmii3s	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 7	mpade	mpade	ADV	Rgp	Degree=Pos	6	advmod	_	SpaceAfter=No
 8	.	.	PUNCT	PERIOD	_	6	punct	_	_
@@ -398,7 +398,7 @@
 17	seati	seate	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	15	obl	_	_
 18	fiĉorlu	fiĉor	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	15	nsubj	_	_
 19	ţi-	ţe	PRON	Pw3--r	Case=Acc,Nom|Person=3|PronType=Int,Rel	21	nsubj	_	SpaceAfter=No
-20	no		nu	PART	Qz	Polarity=Neg	21	advmod	_	_
+20	no	nu	PART	Qz	Polarity=Neg	21	advmod	_	_
 21	afla	aflu	VERB	Vmii3	Mood=Ind|Person=3|Tense=Imp|VerbForm=Fin	18	acl	_	_
 22	nă	un	DET	Tifsr	Case=Acc,Nom|Gender=Fem|Number=Sing|PronType=Ind	23	det	_	_
 23	ќicută	ќicută	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	21	obj	_	_
@@ -440,7 +440,6 @@
 10	fuga	fugă	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
 11	.	.	PUNCT	PERIOD	_	2	punct	_	_
 
-
 # sent_id = test-32
 # text = Uvreulu feaţi tut acşi cu aestu cum feaţi cu ma mărli.
 1	Uvreulu	uvreu	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	_
@@ -453,7 +452,7 @@
 8	feaţi	fac	VERB	Vmis3s	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	_
 9	cu	cu	ADP	Spsa	AdpType=Prep|Case=Acc	11	case	_	_
 10	ma	ma	ADV	Rw	PronType=Int,Rel	11	advmod	_	_
-11	mărli	mare	ADJ	Afpmpry	8	obl	_	SpaceAfter=No
+11	mărli	mare	ADJ	Afpmpry	Case=Acc,Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
 12	.	.	PUNCT	PERIOD	_	2	punct	_	_
 
 # sent_id = test-33
@@ -462,7 +461,7 @@
 2	tora	tora	ADV	Rgp	Degree=Pos	3	advmod	_	_
 3	fum	hiu	VERB	Vmis1p	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 4	deadun	deadun	ADV	Rgp	Degree=Pos	3	advmod	_	SpaceAfter=No
-6	.	.	PUNCT	PERIOD	_	3	punct	_	_
+5	.	.	PUNCT	PERIOD	_	3	punct	_	_
 
 # sent_id = test-34
 # text = Că-ţe lo-agudişi fiĉorlu, measă, ntribă Araplu.
@@ -490,7 +489,7 @@
 8	.	.	PUNCT	PERIOD	_	2	punct	_	_
 
 # sent_id = test-36
-# text = Nâs s-cârti multu, că tamam d-iu nu s-aştipta, de-aclo s-u patâ.
+# text = Nâs s-cârti multu, că tamam d-iu nu s-aştipta, de-acolo s-u patâ.
 1	Nâs	năs	PRON	Pp3msr--------s	Case=Acc,Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Strength=Strong	3	nsubj	_	_
 2	s-	si	PRON	Px3--a--y-----w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak|Variant=Short	3	expl:pv	_	SpaceAfter=No
 3	cârti	cârtescu	VERB	Vmis3s	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -504,7 +503,7 @@
 11	s-	si	PRON	Px3--a--y-----w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak|Variant=Short	12	expl:pv	_	SpaceAfter=No
 12	aştipta	aşteptu	VERB	Vmis3s	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	advcl	_	SpaceAfter=No
 13	,	,	PUNCT	COMMA	_	12	punct	_	_
-14	de-	di	ADP	Spsa	AdpType=Prep|Case=Acc	14	case	_	SpaceAfter=No
+14	de-	di	ADP	Spsa	AdpType=Prep|Case=Acc	15	case	_	SpaceAfter=No
 15	acolo	acolo	ADV	Rgp	Degree=Pos	18	advmod	_	_
 16	s-	si	PRON	Px3--a--y-----w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak|Variant=Short	18	expl:pv	_	SpaceAfter=No
 17	u	el	PRON	Pp3fsr--------s	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Strength=Strong	18	obj	_	_
@@ -582,8 +581,8 @@
 3	doľi	doi	NUM	Mcmprly	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Plur|NumForm=Word|NumType=Card	1	nummod	_	_
 4	era	hiu	AUX	Vaii3s	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	ccomp	_	_
 5	ca	ca	SCONJ	Csssp	Polarity=Pos	9	mark	_	_
-6	s-	să	PART	Qs-y	Mood=Sub|Variant=Short	7	mark	_	SpaceAfter=No
-7	hibă	hiu	VERB	Vasp3s	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+6	s-	să	PART	Qs-y	Mood=Sub|Variant=Short	9	mark	_	SpaceAfter=No
+7	hibă	hiu	AUX	Vasp3s	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 8	cama	cama	ADV	Rgp	Degree=Pos	9	advmod	_	_
 9	sănătos	sănătos	ADJ	Afpmsrn	Case=Acc,Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	4	xcomp	_	SpaceAfter=No
 10	,	,	PUNCT	COMMA	_	4	punct	_	_
@@ -714,7 +713,7 @@
 5	taĺi	taľiu	VERB	Vmip2s	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	advcl	_	SpaceAfter=No
 6	,	,	PUNCT	COMMA	_	5	punct	_	_
 7	bucăţle	bucată	NOUN	Ncfpry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Plur	10	obj	_	_
-8	s-	să	PART	Qs-y	Mood=Sub|Variant=Short	17	mark	_	SpaceAfter=No
+8	s-	să	PART	Qs-y	Mood=Sub|Variant=Short	10	mark	_	SpaceAfter=No
 9	le	el	PRON	Pp3-pd--------w	Case=Dat|Number=Plur|Person=3|PronType=Prs|Strength=Weak	10	expl	_	_
 10	aduńi	adun	VERB	Vmsp3s	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	tu-	tu	ADP	Spsa	AdpType=Prep|Case=Acc	13	case	_	SpaceAfter=No
