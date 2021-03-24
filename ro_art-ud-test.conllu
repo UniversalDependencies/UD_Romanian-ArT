@@ -274,11 +274,11 @@
 7	aspuse	aspun	VERB	Vmis3s	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 8	anarga	anarga	ADV	Rgp	Degree=Pos	7	advmod	_	_
 9	ş-	şi	CCONJ	Crssp	Polarity=Pos	10	cc	_	SpaceAfter=No
-10	mușat	mușat	ADV	Rgp	Degree=Pos	8	conj	_	_
+10	muşat	muşat	ADV	Rgp	Degree=Pos	8	conj	_	_
 11	cum	cum	SCONJ	Csssp	Polarity=Pos	12	mark	_	_
 12	yine	yin	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
 13	un	un	DET	Timsr	Case=Acc,Nom|Gender=Masc|Number=Sing|PronType=Ind	14	det	_	_
-14	ĝone	ĝone	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
+14	ĝone-	ĝone	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
 15	aleptu	aleptu	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
 16	.	.	PUNCT	PERIOD	_	7	punct	_	_
 
