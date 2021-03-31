@@ -28,12 +28,12 @@ Verginica Barbu Mititelu, Mihaela Cristescu, Manuela Nevaci, _Un instrument mode
 Data available since: UD v2.8
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: folklore
-Lemmas: manual
-UPOS: manual
+Genre: fiction
+Lemmas: manual native
+UPOS: manual native
 XPOS: manual native
-Features: manual
-Relations: manual
+Features: manual native
+Relations: manual native
 Contributors: Barbu Mititelu, Verginica; Cristescu, Mihaela; Nevaci, Manuela
 Contributing: elsewhere
 Contact: vergi@racai.ro
