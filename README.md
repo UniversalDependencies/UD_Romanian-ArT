@@ -1,11 +1,11 @@
 # Summary
 
-... 1-2 sentences (see [release checklist](http://universaldependencies.org/release_checklist.html#the-readme-file) for README guidelines) ...
+The UD treebank ArT is a treebank of the Aromanian dialect of the Romanian language in UD format.
 
 
 # Introduction
 
-...
+The corpus reflects the folklore genre: all sentences are selected from Pericle Papahagi's _Aromanian Fairytales_.
 
 
 # Acknowledgments
@@ -14,7 +14,7 @@
 
 ## References
 
-* (citation)
+Verginica Barbu Mititelu, Mihaela Cristescu, Manuela Nevaci, _Un instrument modern de studiu al dialectului aromân: corpus adnotat morfosintactic_ (A Modern Instrument for Studying the Aromanian Dialect: Morphosyntactically annotated corpus) (in press)
 
 
 # Changelog
