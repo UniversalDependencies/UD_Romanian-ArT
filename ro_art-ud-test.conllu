@@ -620,7 +620,7 @@
 4	s-	să	PART	Qs-y	Mood=Sub|Variant=Short	5	mark	_	SpaceAfter=No
 5	ascapă	ascap	VERB	Vmsp3s	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
 6	di	di	ADP	Spsa	AdpType=Prep|Case=Acc	7	case	_	_
-7	nâsă	năs	PRON	Pp3fsr--------s	Case=Acc,Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Strength=Strong	5	nmod:pmod	_	SpaceAfter=No
+7	nâsă	năs	PRON	Pp3fsr--------s	Case=Acc,Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Strength=Strong	5	obl:pmod	_	SpaceAfter=No
 8	,	,	PUNCT	COMMA	_	11	punct	_	_
 9	ş-	şi	CCONJ	Crssp	Polarity=Pos	11	cc	_	SpaceAfter=No
 10	u	el	PRON	Pp3fsa--------w	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Strength=Weak	11	obj	_	_
@@ -686,14 +686,14 @@
 16	s-	să	PART	Qs-y	Mood=Sub|Variant=Short	17	mark	_	SpaceAfter=No
 17	ascapă	ascap	VERB	Vmsp3s	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	_
 18	di	di	ADP	Spsa	AdpType=Prep|Case=Acc	19	case	_	_
-19	arap	arap	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	17	nmod:pmod	_	SpaceAfter=No
+19	arap	arap	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	17	obl:pmod	_	SpaceAfter=No
 20	.	.	PUNCT	PERIOD	_	2	punct	_	_
 
 # sent_id = test-49
 # text = Şi di ţe se aspărea, pân tu coadă no-ascăpă.
 1	Şi	şi	CCONJ	Crssp	Polarity=Pos	11	cc	_	_
 2	di	di	ADP	Spsa	AdpType=Prep|Case=Acc	3	case	_	_
-3	ţe	ţe	PRON	Pw3--r	Case=Acc,Nom|Person=3|PronType=Int,Rel	5	nmod:pmod	_	_
+3	ţe	ţe	PRON	Pw3--r	Case=Acc,Nom|Person=3|PronType=Int,Rel	5	obl:pmod	_	_
 4	se	si	PRON	Px3--a--y-----w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak|Variant=Short	5	expl:pv	_	_
 5	aspărea	aspar	VERB	Vmii3s	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	ccomp:pmod	_	SpaceAfter=No
 6	,	,	PUNCT	COMMA	_	5	punct	_	_
