@@ -563,13 +563,13 @@
 1	Aĝumse	aĝungu	VERB	Vmis3s	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	feata	feată	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	1	nsubj	_	_
 3	la	la	ADP	Spsa	AdpType=Prep|Case=Acc	4	case	_	_
-4	gardu	gardu	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+4	gardu	gardu	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	1	obl	_	_
 5	ş-	şi	CCONJ	Crssp	Polarity=Pos	12	cc	_	SpaceAfter=No
 6	cara	cara	SCONJ	Csssp	Polarity=Pos	8	mark	_	_
 7	s-	si	PRON	Px3--a--y-----w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak|Variant=Short	8	expl:pv	_	SpaceAfter=No
 8	triţea	trec	VERB	Vmii3s	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	advcl	_	_
 9	di	di	ADP	Spsa	AdpType=Prep|Case=Acc	10	case	_	_
-10	gardu	gardu	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+10	gardu	gardu	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	_
 11	era	hiu	AUX	Vaii3s	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
 12	ascăpată	ascap	VERB	Vmp--sf	Gender=Fem|Number=Sing|VerbForm=Part	1	conj	_	SpaceAfter=No
 13	.	.	PUNCT	PERIOD	_	1	punct	_	_
@@ -649,7 +649,7 @@
 7	amirălui	amiră	NOUN	Ncmsoy	Case=Dat,Gen|Definite=Def|Gender=Masc|Number=Sing	9	iobj	_	_
 8	îi	el	PRON	Pp3-sd--------w	Case=Dat|Number=Sing|Person=3|PronType=Prs|Strength=Weak	9	expl	_	_
 9	vińe	ýin	VERB	Vmii3	Mood=Ind|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
-10	sa	să	PART	Qs	Mood=Sub	12	mark	_	SpaceAfter=No
+10	sa	să	PART	Qs	Mood=Sub	12	mark	_	_
 11	z-	si	PRON	Px3--a--y-----w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak|Variant=Short	12	expl:pv	_	SpaceAfter=No
 12	duca	duc	VERB	Vmsp3	Mood=Sub|Person=3|Tense=Pres|VerbForm=Fin	9	csubj	_	_
 13	tu	tu	ADP	Spsa	AdpType=Prep|Case=Acc	14	case	_	_
@@ -672,7 +672,7 @@
 2	imna	imnu	VERB	Vmii3s	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	câtră	câtră	ADP	Spsa	AdpType=Prep|Case=Acc	4	case	_	_
 4	casă	casă	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	_
-5	şi	şi	CCONJ	Crssp	Polarity=Pos	7	cc	_	SpaceAfter=No
+5	şi	şi	CCONJ	Crssp	Polarity=Pos	7	cc	_	_
 6	s-	si	PRON	Px3--a--y-----w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak|Variant=Short	7	expl:pv	_	SpaceAfter=No
 7	minduea	minduescu	VERB	Vmii3s	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	SpaceAfter=No
 8	,	,	PUNCT	COMMA	_	11	punct	_	_
