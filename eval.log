@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Romanian-ArT:
-commit 181d92c638fab524fcdc6a75b8ed87e938cf0a64
+commit ab8258f631c447b14bb46d96ea9c51d0c32f92e6
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 11:55:29 2023 +0200
+Date:   Mon Nov 6 12:54:15 2023 +0100
 Size: counted 573 of 573 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.
 Size: maximum value 13.815511 is for 1000000 words or more.
