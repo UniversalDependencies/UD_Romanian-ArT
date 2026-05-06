@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Romanian-ArT:
-commit 00053dff0d213c13deb46791c80db12f8f0ff705
-Merge: 80be9ce bb6a6d4
+commit d03323bd4ace7ca4cee55985549962bd4722d22e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 20:33:52 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'ro_art'
 Language code (from CoNLL-U file name) = 'ro'
@@ -25,7 +25,7 @@ Universal relations: 27 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ro --max-err=10 UD_Romanian-ArT/ro_art-ud-test.conllu
-[Line 306 Sent test-24]: [L3 Warning fixed-without-extpos] Fixed expression 'Ună oară ţi' does not have the 'ExtPos' feature
+[Line 306 Sent test-24]: [L3 WARNING fixed-without-extpos] Fixed expression 'Ună oară ţi' does not have the 'ExtPos' feature
 Warnings: 1
 *** PASSED ***
 Validity: 1
